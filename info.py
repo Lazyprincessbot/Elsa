@@ -84,8 +84,8 @@ MONGO_URL = os.environ.get('MONGO_URL', "")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdisklink.link')
-SHORTLINK_API = environ.get('SHORTLINK_API', '295103441f0f27b48a3cbf94364fe5d1e6331c65')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ez4short.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '32fdbfdb7d05dbcd07252039e89ab6903816dc55')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #Auto approve 
@@ -104,7 +104,7 @@ MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+fUv8WckDL7kwZWY1")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+fUv8WckDL7kwZWY1")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001893738639'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001681708309'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+fUv8WckDL7kwZWY1')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
